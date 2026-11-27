@@ -1,0 +1,51 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261127T073608Z-Wei-254e2f14ce",
+  "event_type": "change_published",
+  "group_id": "G01",
+  "person_id": "Wei",
+  "created_at": "2026-11-27T07:36:08.884927Z",
+  "related_events": [],
+  "change_id": "C-Wei-e0b3002330",
+  "branch": "people/Wei/dynamic-sequence-diagrams",
+  "commit": "b8e1de831a4c7363c1959841baa4a2096ca2e959",
+  "summary": "Passed tests and cleaned up cache configuration",
+  "base_commit": "2f1a6d493800ce767d33e3c48248f3c95fe1439e",
+  "files_changed": [
+    ".gitignore",
+    "calculator.py",
+    "tests/test_calculator.py",
+    "tests/tests/__init__.py"
+  ],
+  "interface_changes": [],
+  "tests_run": [
+    "[\"D:\\\\msys64\\\\ucrt64\\\\bin\\\\python.exe\", \"-m\", \"unittest\", \"discover\", \"-s\", \"tests\", \"-v\"]"
+  ],
+  "known_issues": [],
+  "proposed_for_integration": true,
+  "validation": {
+    "automated_result": "pass",
+    "results": [
+      {
+        "argv": [
+          "D:\\msys64\\ucrt64\\bin\\python.exe",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "test_add (test_calculator.TestCalculator.test_add) ... ok\ntest_divide_by_zero (test_calculator.TestCalculator.test_divide_by_zero) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n",
+        "counts": [
+          2,
+          0,
+          0
+        ],
+        "evidence_state": "pass"
+      }
+    ]
+  }
+}
