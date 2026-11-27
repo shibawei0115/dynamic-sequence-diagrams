@@ -1,0 +1,45 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261127T073319Z-Wei-5efd375ebf",
+  "event_type": "test_result",
+  "group_id": "G01",
+  "person_id": "Wei",
+  "created_at": "2026-11-27T07:33:19.389395Z",
+  "related_events": [],
+  "scope": "current",
+  "commit": "0c4278aef0d7e71081f6951102d8430e69fb16d9",
+  "commands": [
+    "[\"D:\\\\msys64\\\\ucrt64\\\\bin\\\\python.exe\", \"-m\", \"unittest\", \"discover\", \"-s\", \"tests\", \"-v\"]"
+  ],
+  "automated_result": "fail",
+  "passed": 2,
+  "failed": 0,
+  "skipped": 0,
+  "human_checks_required": [],
+  "summary": "Automated validation: fail",
+  "command_results": [
+    {
+      "argv": [
+        "D:\\msys64\\ucrt64\\bin\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_add (test_calculator.TestCalculator.test_add) ... ok\ntest_divide_by_zero (test_calculator.TestCalculator.test_divide_by_zero) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n",
+      "counts": [
+        2,
+        0,
+        0
+      ],
+      "evidence_state": "pass"
+    }
+  ],
+  "validation_issues": [
+    "Validation modified tracked/unignored files in the isolated checkout"
+  ]
+}
