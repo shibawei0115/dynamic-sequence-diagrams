@@ -1,0 +1,54 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261127T075402Z-Wei-417eb9f8be",
+  "event_type": "change_published",
+  "group_id": "G01",
+  "person_id": "Wei",
+  "created_at": "2026-11-27T07:54:02.243495Z",
+  "related_events": [],
+  "change_id": "C-Wei-ae0edc619a",
+  "branch": "people/Wei/dynamic-sequence-diagrams",
+  "commit": "e0dfd5f6e2e68ca448ca6b21fdc4ec7b977f6544",
+  "summary": "Implemented dynamic sequence diagram layout, interactive drag editor, ignore/consider fragments, and JSON persistence",
+  "base_commit": "2f1a6d493800ce767d33e3c48248f3c95fe1439e",
+  "files_changed": [
+    ".gitignore",
+    "calculator.py",
+    "editor.py",
+    "sequence_engine.py",
+    "tests/test_calculator.py",
+    "tests/test_sequence_engine.py",
+    "tests/tests/__init__.py"
+  ],
+  "interface_changes": [],
+  "tests_run": [
+    "[\"D:\\\\msys64\\\\ucrt64\\\\bin\\\\python.exe\", \"-m\", \"unittest\", \"discover\", \"-s\", \"tests\", \"-v\"]"
+  ],
+  "known_issues": [],
+  "proposed_for_integration": true,
+  "validation": {
+    "automated_result": "pass",
+    "results": [
+      {
+        "argv": [
+          "D:\\msys64\\ucrt64\\bin\\python.exe",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "test_add (test_calculator.TestCalculator.test_add) ... ok\ntest_divide_by_zero (test_calculator.TestCalculator.test_divide_by_zero) ... ok\ntest_auto_layout (test_sequence_engine.TestSequenceEngine.test_auto_layout) ... ok\ntest_drag_and_persistence (test_sequence_engine.TestSequenceEngine.test_drag_and_persistence) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n",
+        "counts": [
+          4,
+          0,
+          0
+        ],
+        "evidence_state": "pass"
+      }
+    ]
+  }
+}
